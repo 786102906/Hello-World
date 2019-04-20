@@ -1,6 +1,6 @@
 # Deeplearning Note
 ## Detection:
-  ### one-stage:
+  one-stage:
     yolov1:
       将图像分成s*s的网格，每个格子分别预测中心点落在此格子内的物体，没有使用anchor，所以没有RPN层的操作，速度上会快很多。但是网络最后有两层全连接，
       且分类和回归之路共享参数，最后一层的输出维度为（5*B+C）
