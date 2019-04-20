@@ -1,5 +1,5 @@
 # Deeplearning Note
-# Detection:
-  ## one-stage:
-    ### yolo:
+## Detection:
+  ### one-stage:
+    yolo:
     
